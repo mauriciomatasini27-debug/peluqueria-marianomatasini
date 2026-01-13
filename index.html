@@ -200,9 +200,12 @@
 </div>
 </section>
 <section class="py-24 bg-background-light dark:bg-background-dark" id="contact">
-<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20">
-<div>
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-12">
 <h2 class="text-4xl font-display mb-12">Visita mi local</h2>
+</div>
+<div class="max-w-3xl mx-auto grid md:grid-cols-2 gap-12">
+<div>
 <div class="space-y-8">
 <div class="flex items-start gap-6">
 <span class="material-symbols-outlined text-primary">location_on</span>
@@ -234,24 +237,76 @@
 </div>
 </div>
 </div>
-<div class="bg-stone-50 dark:bg-stone-900/40 p-10 md:p-12 border border-stone-200 dark:border-stone-800">
-<h3 class="text-2xl font-display mb-8">Consulta o Reserva</h3>
-<form class="space-y-6" onsubmit="event.preventDefault(); alert('Gracias por tu consulta. Nos pondremos en contacto contigo pronto.'); this.reset();">
-<div class="grid grid-cols-2 gap-4">
-<input class="bg-transparent border-b border-stone-300 dark:border-stone-700 focus:border-primary focus:ring-0 px-0 py-3 text-sm" placeholder="Nombre" type="text"/>
-<input class="bg-transparent border-b border-stone-300 dark:border-stone-700 focus:border-primary focus:ring-0 px-0 py-3 text-sm" placeholder="Apellido" type="text"/>
 </div>
-<input class="w-full bg-transparent border-b border-stone-300 dark:border-stone-700 focus:border-primary focus:ring-0 px-0 py-3 text-sm" placeholder="Correo Electrónico" type="email"/>
-<select class="w-full bg-transparent border-b border-stone-300 dark:border-stone-700 focus:border-primary focus:ring-0 px-0 py-3 text-sm text-stone-500">
-<option>Seleccionar Servicio</option>
-<option>Corte &amp; Estilo</option>
-<option>Arte del Color</option>
-<option>Tratamiento de Lujo</option>
-</select>
-<button class="w-full bg-primary text-white py-4 uppercase tracking-[0.2em] text-xs font-bold hover:bg-gold-muted transition-colors mt-4" type="submit">
-                        Enviar Solicitud
-                    </button>
-</form>
+</section>
+<section class="py-24 bg-stone-50 dark:bg-stone-900/20" id="testimonios">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-5xl font-display mb-4">Comentarios y Experiencias</h2>
+<div class="flex justify-center mb-6">
+<div class="h-1 w-20 bg-primary"></div>
+</div>
+<p class="text-stone-500 max-w-2xl mx-auto tracking-wide">Lo que nuestros clientes dicen sobre nuestro trabajo</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="luxury-card bg-background-light dark:bg-background-dark p-8 border border-stone-100 dark:border-stone-800">
+<div class="flex items-center gap-1 mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+</div>
+<p class="text-stone-600 dark:text-stone-400 mb-6 italic leading-relaxed">"Excelente atención y profesionalismo. Mariano realmente sabe lo que hace. Mi corte quedó perfecto y el servicio fue impecable. ¡Definitivamente volveré!"</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+<div>
+<h5 class="font-semibold text-sm">María González</h5>
+<p class="text-xs text-stone-500 dark:text-stone-400">Cliente frecuente</p>
+</div>
+</div>
+</div>
+<div class="luxury-card bg-background-light dark:bg-background-dark p-8 border border-primary relative shadow-2xl shadow-primary/5">
+<div class="flex items-center gap-1 mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+</div>
+<p class="text-stone-600 dark:text-stone-400 mb-6 italic leading-relaxed">"Quedé fascinada con las mechas que me hizo. El color es exactamente lo que quería y el trato personalizado hace toda la diferencia. Recomiendo 100%."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+<div>
+<h5 class="font-semibold text-sm">Ana Martínez</h5>
+<p class="text-xs text-stone-500 dark:text-stone-400">Nueva cliente</p>
+</div>
+</div>
+</div>
+<div class="luxury-card bg-background-light dark:bg-background-dark p-8 border border-stone-100 dark:border-stone-800">
+<div class="flex items-center gap-1 mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+</div>
+<p class="text-stone-600 dark:text-stone-400 mb-6 italic leading-relaxed">"El tratamiento de botox capilar que me aplicaron fue increíble. Mi cabello se siente suave, brillante y saludable. El ambiente del salón es muy agradable y relajante."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+<div>
+<h5 class="font-semibold text-sm">Laura Fernández</h5>
+<p class="text-xs text-stone-500 dark:text-stone-400">Cliente desde 2023</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -327,5 +382,9 @@
         observer.observe(section);
     });
 </script>
-
-```</body></html>
+<a href="https://wa.me/5493547448317?text=Hola%20Mariano!%20Me%20gustaría%20reservar%20un%20turno." 
+   class="fixed bottom-6 right-6 z-[60] shadow-lg hover:scale-110 transition-transform flex items-center justify-center"
+   target="_blank" rel="noopener noreferrer">
+    <img src="logodewhatsapp.jpg" alt="Contactar por WhatsApp" class="w-16 h-16"/>
+</a>
+</body></html>
